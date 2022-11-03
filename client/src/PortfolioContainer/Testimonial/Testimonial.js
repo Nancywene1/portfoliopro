@@ -7,6 +7,11 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Testimonial.css";
+import lady from "../../../src/img/Testimonial/lady.png";
+import mike from "../../../src/img/Testimonial/mike.png";
+import man from "../../../src/img/Testimonial/man.png";
+import shape from "../../../src/img/Testimonial/shape-bg.png";
+
 
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
@@ -82,7 +87,7 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img src='img/testimonial/lady.png' alt="no internet connection"></img>
+                    <img src={lady} alt="no internet connection"></img>
                     <h5>Daisy Dominic</h5>
                     <p>CEO InansGlobal</p>
                   </div>
@@ -118,7 +123,7 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img src='img/testimonial/mike.png' alt="no internet connection"></img>
+                    <img src={mike} alt="no internet connection"></img>
                     <h5>Mikel</h5>
                     <p>CEO MikeTech</p>
                   </div>
@@ -153,7 +158,7 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img src='img/testimonial/man.png' alt="no internet connection"></img>
+                    <img src={lady} alt="no internet connection"></img>
                     <h5>Daisy Dominic</h5>
                     <p>CEO InansGlobal</p>
                   </div>
@@ -188,7 +193,7 @@ export default function Testimonial(props) {
                     </ul>
                   </div>
                   <div className="client-info">
-                    <img src='img/testimonial/lady.png' alt="no internet connection"></img>
+                    <img src={man} alt="no internet connection"></img>
                     <h5>John Smith</h5>
                     <p>Bnaker</p>
                   </div>
